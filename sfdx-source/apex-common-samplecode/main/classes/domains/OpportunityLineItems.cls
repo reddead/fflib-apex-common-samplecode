@@ -39,7 +39,7 @@ public with sharing class OpportunityLineItems extends fflib_SObjectDomain
 	
 	public OpportunityLineItems(List<OpportunityLineItem> sObjectList)
 	{
-		super(sObjectList);
+		super(sObjectList);//
 	}
 
 	public void applyDiscount(IOpportunities opps, Decimal discountPercentage, fflib_ISObjectUnitOfWork uow)
